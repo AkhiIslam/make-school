@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #f8f4f4;
+}
+.teacher-container{
+    border-right: 1px solid lightgray;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
